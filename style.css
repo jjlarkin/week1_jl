@@ -1,0 +1,97 @@
+/**
+ * HW 1 
+ **/
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    box-sizing: border-box;
+    text-align: center;
+    background-color: #777;
+}
+
+div.bigwrap {
+    width: 75%;
+    margin: 0 auto;
+    padding: 5px;
+}
+
+header {
+    background-color: #ebebeb;
+    padding: 20px;
+    color: #777;
+    margin: 0 auto;
+    margin-bottom: 10px;
+}
+
+nav {
+    background-color: #ebebeb;
+    padding: 20px;
+    color: #777;
+    margin: 0 auto;
+    margin-bottom: 10px;
+}
+
+div.wrap {
+   
+    background-color: #777;
+    width: 100%;
+    margin:0;
+    
+}
+
+section {
+    clear: both;
+    padding: 20px;
+    padding-bottom: 30px;
+    float: left;
+    background-color: #ebebeb;
+    width: 59%;
+    margin: 0 auto;
+    margin-right: 28px;
+    color: #777;
+    overflow: auto;
+}
+
+article {
+    background-color: #777;
+    padding: 20px;
+    color: #ebebeb;
+}
+
+h1 {
+    background-color: #ebebeb;
+    padding: 5;
+    margin: 1;
+    color: #777;
+}
+
+.pclass {
+    background-color: #ebebeb;
+    padding: 5;
+    margin: 1;
+    color: #777;
+}
+
+aside {
+    
+    padding: 20px;
+    padding-bottom: 200px;
+    background-color: #ebebeb;
+    width: 38%;
+    
+    
+    color: #777;
+
+}
+
+footer {
+    
+    bottom: 0;
+    background-color: #ebebeb;
+    padding: 20px;
+    color: #777;
+    margin: 0 auto;
+}
