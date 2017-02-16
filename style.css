@@ -10,12 +10,12 @@ body {
     box-sizing: border-box;
     text-align: center;
     background-color: #777;
+    width: 75%;
+    margin: 0 auto;
 }
 
 div.bigwrap {
-    width: 75%;
-    margin: 0 auto;
-    padding: 5px;
+    
 }
 
 header {
@@ -34,11 +34,9 @@ nav {
     margin-bottom: 10px;
 }
 
-div.wrap {
-   
+.wrap {
     background-color: #777;
-    width: 100%;
-    margin:0;
+    margin: 0;
     
 }
 
@@ -50,7 +48,7 @@ section {
     background-color: #ebebeb;
     width: 59%;
     margin: 0 auto;
-    margin-right: 28px;
+    margin-right: 10px;
     color: #777;
     overflow: auto;
 }
@@ -63,35 +61,35 @@ article {
 
 h1 {
     background-color: #ebebeb;
-    padding: 5;
-    margin: 1;
+    padding: 10px;
+    margin: 10px;
     color: #777;
 }
 
 .pclass {
     background-color: #ebebeb;
-    padding: 5;
-    margin: 1;
+    padding: 10px;
+    margin: 10px;
     color: #777;
 }
 
 aside {
-    
+    position: relative;
+    top:0;
+    float: right;
     padding: 20px;
-    padding-bottom: 200px;
+    padding-bottom: 219px;
     background-color: #ebebeb;
-    width: 38%;
-    
-    
+    width: 39%;
     color: #777;
-
 }
 
 footer {
-    
-    bottom: 0;
+    position: fixed;
+    bottom: 30px;
     background-color: #ebebeb;
     padding: 20px;
     color: #777;
     margin: 0 auto;
+    width: 75%;
 }
